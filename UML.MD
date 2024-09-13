@@ -8,17 +8,18 @@ classDiagram
     IPhone <|-- Internet
     IPhone <|-- Telefonico
         
-    class Musica
+    class Musica{
         Musica : +tocar()
         Musica : +pausar()
         Musica : +selecionarMusica(String musica)
-
-    class Internet
+    }
+    class Internet{
         Internet : +exibirPagina(String url)
         Internet : +adicionarNovaAba()
         Internet : +atualizarPagina()
-
-    class Telefonico
+    }
+    class Telefonico{
         Telefonivo : + ligar(String numero)
         Telefonivo : + atender()
         Telefonivo : + iniciarCorreioVoz()
+    }
