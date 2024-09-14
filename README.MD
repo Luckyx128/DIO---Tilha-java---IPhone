@@ -1,25 +1,5 @@
----
-title: Animal example
----
+# Repositorio para desafio DIO estrutura de classes das funcionalidades do Primeiro IPhone
 
-classDiagram
-
-    IPhone <|-- Musica
-    IPhone <|-- Internet
-    IPhone <|-- Telefonico
-        
-    class Musica{
-        Musica : +tocar()
-        Musica : +pausar()
-        Musica : +selecionarMusica(String musica)
-    }
-    class Internet{
-        Internet : +exibirPagina(String url)
-        Internet : +adicionarNovaAba()
-        Internet : +atualizarPagina()
-    }
-    class Telefonico{
-        Telefonivo : + ligar(String numero)
-        Telefonivo : + atender()
-        Telefonivo : + iniciarCorreioVoz()
-    }
+- Tocador de Musicas
+- Telefone
+- Internet
